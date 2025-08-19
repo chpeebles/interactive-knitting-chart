@@ -1,8 +1,16 @@
+import { Chart, Footer, Header } from "./components";
+
+import "./App.css";
+
 const App: React.FC = () => {
   return (
-    <>
-      <h1>Interactive Knitting Chart</h1>
-    </>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex flex-col flex-1">
+        <Chart />
+      </main>
+      <Footer />
+    </div>
   );
 };
 

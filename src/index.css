@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@theme {
+  --color-vanilla: #f3dfa2;
+  --color-cobalt: #1446a0;
+  --color-moss: #90a955;
+  --color-rose: #fd3e81;
+  --color-butterscotch: #ed9b40;
 }

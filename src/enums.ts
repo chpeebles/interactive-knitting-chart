@@ -1,7 +1,7 @@
 export enum ChartColor {
   VANILLA = "vanilla",
   COBALT = "cobalt",
-  GREEN = "green",
+  MOSS = "moss",
   ROSE = "rose",
   BUTTERSCOTCH = "butterscotch",
 }

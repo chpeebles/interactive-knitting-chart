@@ -8,6 +8,11 @@ I am a passionate frontend developer during the workday and an avid knitter at n
 - Learn how to work with an LLM to convert an image of a chart to data that can be used to display the chart in an interactive UI.
 - Build an interactive UI where users can create a project for their pattern and upload images of all of the pattern's charts. They can cross out rows to keep track of their progress, change the icons used for stitches from a small icon library, and quickly view instructions for a stitch on click.
 
+## Plan
+
+1. Chat with the Fuel iX Copilot to create a plan for how to get from an image to a chart to accurate data that can be used for my interactive UI
+2. Start on an MVP for the front end utilziing [Cursor](https://cursor.com/en) autocomplete for efficient development
+
 ## Frontend Tech Stack
 
 - TypeScript
@@ -15,7 +20,7 @@ I am a passionate frontend developer during the workday and an avid knitter at n
 - Vite
 - TailwindCSS
 
-## Plan
+## Running the local server
 
-1. Chat with the Fuel iX Copilot to create a plan for how to get from an image to a chart to accurate data that can be used for my interactive UI
-2. Start on an MVP for the front end utilziing [Cursor](https://cursor.com/en) autocomplete for efficient development
+1. Run `npm run dev`
+2. Visit http://localhost:5173/

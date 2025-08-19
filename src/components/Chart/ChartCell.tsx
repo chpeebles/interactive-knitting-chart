@@ -1,4 +1,5 @@
 import useColor from "../../hooks/useColor";
+import { getBorderColor } from "./helpers";
 
 interface ChartCellProps {
   numStitches: number;
@@ -6,6 +7,7 @@ interface ChartCellProps {
 
 const ChartCell: React.FC<ChartCellProps> = ({ numStitches }) => {
   const { color } = useColor();
+  const borderColor = getBorderColor(color);
 
   return (
     <>
@@ -13,7 +15,7 @@ const ChartCell: React.FC<ChartCellProps> = ({ numStitches }) => {
         return (
           <td
             key={`stitch-${stitchIndex}`}
-            className={`w-7 h-7 border border-${color} text-xl text-center`}
+            className={`w-7 h-7 border ${borderColor} text-xl text-center`}
           >
             O
           </td>
